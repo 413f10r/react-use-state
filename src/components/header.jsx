@@ -1,7 +1,7 @@
 
 
 
-    const Title = () => {
+    const Header = () => {
        
     return(
         <div className="titleCont"> 
@@ -10,4 +10,4 @@
     )
 }
 
-export default Title;
+export default Header;

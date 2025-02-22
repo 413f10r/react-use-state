@@ -1,17 +1,19 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import Title from './components/header'
-import Button from './components/main'
+import languages from './data/languages'
+import Header from './components/header'
+import Main from './components/Main'
+
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <Title />
-      <Button />
+      < Header />
+      < Main languages = {languages}/>
+     
+
 
     </>
 
