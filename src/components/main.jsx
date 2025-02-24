@@ -1,4 +1,5 @@
-import Buttons from "./Buttons";
+
+import Buttons from "./buttons";
 import Cards from "./Cards";
 import { useState } from "react";
 
