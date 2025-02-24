@@ -1,23 +1,18 @@
-
-
-const Cards = ({languages}) => {
+const Cards = ({ languages, idDescrizione }) => {
 
     return (
         <nav>
             <div className="container">
                 {
-                    languages.map((Element) => {
+                    languages.map((Element, index) => {
 
                         const { id, title, description } = Element;
                         return (
-                            <p key={id}>{description} </p>
+
+                            idDescrizione === index && <p key={id}> {description} </p>
                         )
-
                     })
-
                 }
-
-
             </div>
         </nav>
     )

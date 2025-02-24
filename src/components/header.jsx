@@ -1,7 +1,4 @@
-
-
-
-    const Header = () => {
+const Header = () => {
        
     return(
         <div className="titleCont"> 
